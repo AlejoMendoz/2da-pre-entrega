@@ -1,0 +1,458 @@
+body {
+    font-family:"Montserrat", sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de header*/
+header {
+    padding: 20px;
+    background-color: F7F7F7
+}
+
+
+
+header .logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos de textos banner Index */
+
+/* Sección de introducción */
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 100px 100px;
+    gap: 10px;
+}
+
+.UX-UI-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.UX-UI-text .small-text {
+    font-size: 20px;
+    color: #1F1F1F;
+}
+
+.UX-UI-text h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.UX-UI-text p {
+    font-size: 16px;
+    color: #666;
+}
+
+.Logo-grande img {
+    max-width: 100%;
+    height: auto;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilos H1 */
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Nueva sección About Me */
+.about-me {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 16px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+.about-me-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat .number {
+    font-size: 64px;
+    color: #96DAEA;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stat .label {
+    font-size: 18px;
+    color: #fff;
+}
+
+/*services containers */ 
+.services-tittle {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.service {
+    text-align: center;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.service img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+/*---Grids en las cards del Index*/
+.Design-insights {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 20px 20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-logo img {
+    max-height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Custom CSS to align navbar items to the right on larger screens */
+ @media (min-width: 992px) {
+        .navbar-nav {
+            margin-left: auto;
+        }
+    }
+/* Estilos para el botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    }
+.whatsapp-button img {
+        width: 60px;
+        height: 60px;
+    }
+
+/* get in touch pagina de contacto  */
+.getintouch {
+    background-color: #FFD4D0; 
+    padding: 20px;
+    text-align: center;
+  
+}
+
+/* Portfolio */
+.My-portfolio {
+    background-color: #96DAEA; 
+    text-align: center;
+    padding: 30px;
+  
+}
+
+/* Edicational img */
+.educational-img {
+    width: 100%; 
+    text-align: center; /
+}
+
+.educational-img img {
+    max-width: 70%; 
+    width: auto; / 
+}
+
+/* testimonial pagina de contacto  */
+
+.testimonial {
+    background-color: #96DAEA; 
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: black; /
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+}
+
+
+/* description proyecto pagina portfolio */
+.description {
+    background-color: #F7F7F7; 
+    padding: 50px;
+    text-align: left;
+    margin: auto;
+}
+
+.description h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: black; /
+}
+
+.description p {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+}
+
+/* description core design portfolio */
+.core {
+    background-color: #F7F7F7; 
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.core h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: black; /
+}
+
+.core p {
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+}
+
+
+/*-- Pagina de servicios--*/
+
+.portfolio-header {
+    background-color: #96DAEA; 
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.portfolio-header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.portfolio-header p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.portfolio-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* align navbar items */
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+}
+
+/* Media Queries pagina de servicios */
+@media (max-width: 768px) {
+    .portfolio-cards {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #intro {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .Logo-grande img {
+        margin-top: 20px;
+    }
+
+
+    .portfolio-cards {
+        grid-template-columns: 1fr;
+        gap: 10px; 
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 100%; 
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+}
